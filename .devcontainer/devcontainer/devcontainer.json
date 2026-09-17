@@ -1,0 +1,11 @@
+{
+  "name": "Windows Cloud VM",
+  "image": "dockur/windows",
+  "forwardPorts":,
+  "portsAttributes": {
+    "8006": {
+      "label": "Windows Desktop",
+      "onAutoForward": "openBrowser"
+    }
+  }
+}
